@@ -29,6 +29,9 @@
                          style="width:50px;margin:2px"
                          title="{{product.productName}}">
                 </td>
+                <a ng-href = "#productDetail/{{product.productId}}">
+                {{product.productName}}
+                </a>
                 <td>{{ product.productName}} </td>
                 <td>{{ product.productCode }}</td>
                 <td>{{ product.releaseDate | date }}</td>
